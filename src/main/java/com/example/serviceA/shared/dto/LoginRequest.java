@@ -1,0 +1,12 @@
+package com.example.serviceA.shared.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+@Data
+public class LoginRequest {
+    private String username;
+    private String password;
+}
